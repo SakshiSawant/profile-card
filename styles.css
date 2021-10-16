@@ -86,3 +86,29 @@ body{
     font-weight: bold;
     color: rgb(117, 116, 116);
 }
+
+@media screen and (max-width: 962px){
+
+    .profile--card{
+        background-color: #ffffff;
+        margin: auto;
+        width: 80%;
+        margin-top: 15em;
+        border-radius: 2em;
+    }
+}
+
+@media screen and (max-width: 568px){
+    .profile--card{
+        background-color: #ffffff;
+        margin: auto;
+        width: 90%;
+        margin-top: 15em;
+        border-radius: 2em;
+    }
+
+    .profile--image{
+        left: 9em;
+    }
+
+}
