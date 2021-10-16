@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, repeat;
+    background-size: 50%, 50%;
+}
+
+.profile--card{
+    background-color: #ffffff;
+    margin: auto;
+    width: 30%;
+    margin-top: 5em;
+    border-radius: 2em;
+}
+
+.profile--card__image{
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    background-image: url("./images/bg-pattern-card.svg");
+    /* position: relative; */
+    padding: 1em;
+}
+
+.profile--image{
+    border-radius: 50%;
+    /* position: absolute; */
+    margin: auto;
+    position: relative;
+    top: 4em;
+    left: 16.5em;
+}
+
+.profile--card__title{
+    padding: 2em;
+    padding-top: 3em;
+}
+
+.profile--card__name{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.profile--card__age{
+    color: rgb(117, 116, 116);
+    font-size: 18px;
+}
+
+.profile--card__place{
+    text-align: center;
+    color: rgb(117, 116, 116);
+    font-size: 16px;
+}
+
+.social--card__info{
+    padding: 2em;
+    /* background-color: yellow; */
+}
+
+.social--card__followers{
+    display: inline;
+    border: 2px solid black;
+    /* padding: 1em; */
+}
+
+.social--card__likes{
+    display: inline;
+    width: fit-content;
+}
+
+.social--card__followers h1{
+    font-size: 18px;
+}
