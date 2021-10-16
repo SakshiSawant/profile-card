@@ -66,17 +66,13 @@ body{
     /* background-color: yellow; */
 }
 
-.social--card__followers{
-    display: inline;
+.social--card{
+    display: inline-block;
     border: 2px solid black;
-    /* padding: 1em; */
-}
-
-.social--card__likes{
-    display: inline;
     width: fit-content;
+    padding: 1em;
 }
 
-.social--card__followers h1{
+.social--card h1{
     font-size: 18px;
 }
