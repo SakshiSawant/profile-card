@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -12,13 +14,14 @@ body{
     background-position: top left, bottom right;
     background-repeat: no-repeat, repeat;
     background-size: 50%, 50%;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .profile--card{
     background-color: #ffffff;
     margin: auto;
-    width: 30%;
-    margin-top: 5em;
+    width: 20%;
+    margin-top: 15em;
     border-radius: 2em;
 }
 
@@ -36,7 +39,8 @@ body{
     margin: auto;
     position: relative;
     top: 4em;
-    left: 16.5em;
+    left: 10em;
+    
 }
 
 .profile--card__title{
@@ -63,16 +67,22 @@ body{
 
 .social--card__info{
     padding: 2em;
-    /* background-color: yellow; */
+    padding-top: 1em;
+    margin: auto;
 }
 
 .social--card{
     display: inline-block;
-    border: 2px solid black;
     width: fit-content;
-    padding: 1em;
+    padding: 2em;
 }
 
 .social--card h1{
     font-size: 18px;
+}
+
+.social--card p{
+    font-size: 16;
+    font-weight: bold;
+    color: rgb(117, 116, 116);
 }
