@@ -29,13 +29,11 @@ body{
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
     background-image: url("./images/bg-pattern-card.svg");
-    /* position: relative; */
     padding: 1em;
 }
 
 .profile--image{
     border-radius: 50%;
-    /* position: absolute; */
     margin: auto;
     position: relative;
     top: 4em;
