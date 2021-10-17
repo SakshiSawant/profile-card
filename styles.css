@@ -11,9 +11,9 @@ body{
     box-sizing: border-box;
     background-color: hsl(185, 75%, 39%);
     background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
-    background-position: top left, bottom right;
-    background-repeat: no-repeat, repeat;
-    background-size: 50%, 50%;
+    background-position: left -10em bottom 5em, right -30em top 10em;
+    background-repeat: no-repeat, no-repeat;
+    /* background-size: 50%, 50%; */
     font-family: 'Kumbh Sans', sans-serif;
 }
 
