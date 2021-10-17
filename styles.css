@@ -20,7 +20,7 @@ body{
 .profile--card{
     background-color: #ffffff;
     margin: auto;
-    width: 20%;
+    width: fit-content;
     margin-top: 15em;
     border-radius: 2em;
 }
@@ -37,7 +37,7 @@ body{
     margin: auto;
     position: relative;
     top: 4em;
-    left: 10em;
+    left: 8em;
     
 }
 
@@ -90,7 +90,7 @@ body{
     .profile--card{
         background-color: #ffffff;
         margin: auto;
-        width: 80%;
+        width: fit-content;
         margin-top: 15em;
         border-radius: 2em;
     }
@@ -100,7 +100,7 @@ body{
     .profile--card{
         background-color: #ffffff;
         margin: auto;
-        width: 90%;
+        width: fit-content;
         margin-top: 15em;
         border-radius: 2em;
     }
